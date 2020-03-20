@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#F5F5F5"
+
+    android:paddingTop="10dp"
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Booking"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➯ Can I enter my room before check-in time ?"
+            android:textAlignment="viewStart"
+
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="If the room is ready we will gladly let you in earlier. However, if your room isn’t ready, there is a baggage storage at your disposal and you may use the rest of the hotel’s amenities while waiting."
+            android:textAlignment="viewStart"
+            android:textSize="15sp"
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_margin="8dp"
+            android:background="#546E7A" />
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="➯ Can I request a specific position of my room/suite ?"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+
+
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="We will do our best to meet your needs and requirements, but we cannot make any guarantees."
+            android:textAlignment="viewStart"
+            android:textSize="15sp"
+
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#546E7A"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="4dp"
+            android:text="➯ If I change the dates of my stay, will this influence on the price ?"
+            android:textAlignment="viewStart"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            android:text="Please contact our Reservation Team and they will be glad to serve you"
+            android:textAlignment="viewStart"
+            android:textSize="15sp"
+
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#546E7A"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Payment"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➯ Is it possible to pay for my stay with bank or credit cards ?"
+            android:layout_marginTop="4dp"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+
+
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textSize="15sp"
+            android:text="You can pay for your stay with all major bank and credit cards."
+            android:textAlignment="viewStart"
+
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#546E7A"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➯ Which cards can be used for payments?"
+            android:layout_marginTop="4dp"
+            android:textAlignment="viewStart"
+
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/txt9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textSize="15sp"
+            android:text="All major credit cards (Mastercard, Visa, Diners) and debit cards."
+            android:textAlignment="viewStart"
+
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#546E7A"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Guest Amenities"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+        android:id="@+id/t121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➯ Is in-room breakfast available ?"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="4dp"
+
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="start" />
+
+        <TextView
+            android:id="@+id/t131"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Yes, for an additional fee."
+            android:textAlignment="viewStart"
+            android:textSize="15sp"
+
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#546E7A"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/t12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➯ Is the use of the fitness/wellness zones free of charge ?"
+            android:textAlignment="viewStart"
+            android:layout_marginTop="4dp"
+
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/t13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="The use of fitness/wellness zones is free of charge for all hotel guests. This includes the use of indoor pools, the sauna and fitness rooms.
+
+"
+            android:textAlignment="viewStart"
+            android:textSize="15sp"
+
+            android:gravity="start" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#546E7A"
+            android:layout_margin="8dp"/>
+
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

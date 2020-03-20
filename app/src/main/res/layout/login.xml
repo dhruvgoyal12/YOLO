@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorPrimary"/>
+       <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in to access your profile "
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#808e95"
+           android:layout_marginTop="5dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lEditEmail"
+            android:textAlignment="center"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lEditPassword"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:padding="20dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:id="@+id/LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not a member yet?"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textColor="#808e95"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"/>
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Register Now"
+            android:clickable="true"
+            android:onClick="reglink"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:content=".MainActivity">
+    <item
+        android:id="@+id/facebook"
+        android:icon="@drawable/icons8_facebook_old_24"
+        android:title="face_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/inst"
+        android:icon="@drawable/icons8_instagram_filled_24"
+        android:title="insta_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="android_icon"
+        app:showAsAction="ifRoom"/>
+
+</menu>
